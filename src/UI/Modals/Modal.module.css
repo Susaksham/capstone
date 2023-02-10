@@ -1,0 +1,17 @@
+.backdrop {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.firstChild {
+  position: inherit;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  opacity: 0.6;
+}

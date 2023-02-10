@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&family=Open+Sans&display=swap');
+.wrapper {
+  display: flex;
+  padding: 0.8rem 3.2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px #3333 solid;
+}
+.navigation {
+  display: flex;
+  gap: 4.8rem;
+}
+.wrapper h3 {
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: 'Merriweather', serif;
+}
+.active {
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  border-bottom: 5px solid orange;
+
+  font-weight: bold;
+  color: black;
+}
+.unactive {
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+.productsActive {
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  border-bottom: 5px solid orange;
+  font-weight: bold;
+  color: black;
+}
+.productsUnactive {
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  color: black;
+}

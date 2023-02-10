@@ -1,0 +1,8 @@
+.card {
+  width: 45rem;
+  height: 50rem;
+
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}

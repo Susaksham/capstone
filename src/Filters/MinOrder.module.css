@@ -1,0 +1,7 @@
+.minOrder {
+  display: flex;
+  flex-direction: column;
+}
+.minOrder span {
+  font-size: 1.6rem;
+}

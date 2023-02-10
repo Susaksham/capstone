@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&family=Open+Sans&family=Pacifico&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.8rem 4rem 1.6rem 3.2rem;
+  border: 2px #3333 solid;
+}
+.header h1 {
+  font-size: 2.4rem;
+
+  font-family: 'Pacifico', cursive;
+}
+.icon {
+  font-size: 4rem;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px #dbe2e2 solid;
+  border-radius: 30px;
+}
+.searchIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px rgb(15, 15, 15) solid; */
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 0.704rem 0.8rem 0.704rem 1.6rem;
+  border-right: none;
+  font-size: 1.6rem;
+}
+.search input {
+  padding: 0.7rem 36.8rem 0.7rem 0.8rem;
+  border: none;
+  border-left: none;
+  border-right: none;
+  font-size: 2.56rem;
+  outline: none;
+}
+
+.search button {
+  padding: 0.5rem 2.2rem;
+  border: 2px rgb(15, 15, 15) solid;
+  font-size: 1.6rem;
+  /* border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  border-radius: 30px;
+  background-color: #fff;
+  /* border-left: 2px rgb(222, 240, 241) solid; */
+  border-left: 2px rgba(12, 12, 12, 0.516) solid;
+  background-color: #fb6a00;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.cart {
+  padding: 1.28rem 1.6rem;
+  border-radius: 100%;
+  position: relative;
+}
+.icons_container {
+  display: flex;
+  gap: 3.2rem;
+}
+.cartItems {
+  font-size: 1.2rem;
+  position: absolute;
+  top: -10%;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border-radius: 50%;
+  color: white;
+  background-color: orange;
+  right: 0;
+}
+.profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 2px solid orange;
+}
+.hamburger {
+  display: none;
+}
+@media (max-width: 550px) {
+  * {
+    font-size: 50%;
+  }
+  .header {
+    border: none;
+  }
+  .search {
+    display: none;
+  }
+  .icons_container {
+    display: none;
+  }
+}
